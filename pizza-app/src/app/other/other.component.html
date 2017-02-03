@@ -1,0 +1,27 @@
+
+<hr>
+
+{{ aString }} <br>
+
+{{ aNumber }}
+
+<p>
+  other works!
+
+
+
+
+
+  <app-another [name]="'Max'" (clicked)="aString = $event"></app-another>
+
+</p>
+
+<hr>
+<p>Event Binding</p>
+<button (click)="onClick($event)" >Klick mich!</button>
+
+
+<div [ngClass]="{'red-border': attachClass}">
+  <input type="text" value="{{aNumber}}" >
+
+</div>
